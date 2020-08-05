@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+}
+
+.container h1 {
+  font-size: 60px;
+}
+
+.container p {
+  font-size: 20px;
+}
+
+#logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 150px;
+}
+
+.social-media {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social-media ul{
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
+
+.social-media ul li {
+  margin: 0 20px;
+}
+
+.social-media ul li .fab {
+  font-size: 20px;
+  transition: .6s;
+  line-height: 50px;
+  color: #000;
+  transition: .2s;
+}
+
+.social-media ul li a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.social-media ul li a:hover {
+  transform: translate(0, -10px);
+}
+
+.social-media ul li:nth-child(1) a:hover {
+  background-color: #517fa4;
+}
+.social-media ul li:nth-child(1) a:hover .fa-instagram {
+  color: #fff;
+}
+
+.social-media ul li:nth-child(2) a:hover {
+  background-color: #00aced;
+}
+.social-media ul li:nth-child(2) a:hover .fa-twitter{
+  color: #fff;
+}
+
+.social-media ul li:nth-child(3) a:hover {
+  background-color: #bb0000;
+}
+.social-media ul li:nth-child(3) a:hover .fa-youtube {
+  color: #fff;
+}
+
+.social-media ul li:nth-child(4) a:hover {
+  background-color: #3b5998;
+}
+.social-media ul li:nth-child(4) a:hover .fa-facebook {
+  color: #fff;
+}
+
+.fa-youtube {
+  color: #bb0000;
+}
+
+.fa-instagram {
+  color: #517fa4;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
