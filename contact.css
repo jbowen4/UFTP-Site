@@ -1,0 +1,35 @@
+.social-links {
+  margin: 100px auto 0 auto;
+}
+
+.social-media {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: fit-content;
+  margin: auto;
+  grid-gap: 40px;
+  justify-items:center;
+}
+
+.social-item {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: blue;
+  position: relative;
+  display: block;
+  background-color: #fff;
+  text-align: center;
+  transition: .2s;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  line-height: 80px;
+}
+
+.social-item:hover {
+  transform: scale(1.1);
+}
+
+.fab {
+   font-size: 30px;
+ }

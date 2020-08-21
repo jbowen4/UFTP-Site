@@ -29,6 +29,7 @@ a {
 
 .bold:hover{
   color:#24B5E3;
+  cursor: default;
 }
 
 .container {
@@ -88,9 +89,21 @@ a {
 
 /* ====================== Headline ======================= */
 
+.spacer {
+  height: 400px;
+  overflow:visible;
+}
+
+.main-image {
+  position: relative;
+      top: 50%;
+      left: 45%;
+      transform: translate(-50%, -50%);
+}
+
 #main {
-  /* position: relative; */
-  width: 80%;
+  position: relative;
+  width: 65%;
   margin: 100px auto;
   overflow: auto;
 }
@@ -235,4 +248,27 @@ a {
     z-index: -10;
     font-style: italic;
     color: #24B5E3;
+}
+
+/* =====================================================*/
+
+.bounce-container {
+  height: 120px;
+  overflow: visible;
+}
+
+.bounce {
+  position: relative;
+top: 30%;
+left:50%;
+transform: translate(-50%, -50%);
+  /* position:absolute;
+  left: 47%;
+  top:1200px;
+  transform:translate(-50%, -50%); */
+}
+
+.left-double-semi {
+  margin:0;
+  padding: 0;
 }
